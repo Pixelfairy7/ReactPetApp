@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
+/*Variables*/
+$headerfont:'Nunito', sans-serif;
+/* Global Styles*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $headerfont;
+  color: rgb(90, 130, 204);
+}
+
+.header{
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+  h1{
+    font-size: 4em;
+    padding: 1em;
+    padding-bottom: 0;
+  }
+  h2{
+    font-size: 1.3em;
+    padding-bottom: .8em;
+  }
+}
