@@ -12,4 +12,17 @@ $headerfont:'Nunito', sans-serif;
 
 .header{
   background-color: pink;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+  h1{
+    font-size: 4em;
+    padding: 1em;
+    padding-bottom: 0;
+  }
+  h2{
+    font-size: 1.3em;
+    padding-bottom: .8em;
+  }
 }
