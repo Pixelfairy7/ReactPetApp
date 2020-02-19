@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
 /*Variables*/
 $headerfont:'Nunito', sans-serif;
+
 /* Global Styles*/
 *{
   margin: 0;
@@ -26,3 +27,41 @@ $headerfont:'Nunito', sans-serif;
     padding-bottom: .8em;
   }
 }
+
+.searchContainer{
+  display: flex;
+  justify-content: center ;
+  
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 3em;
+}
+.formContainer{
+  display: flex;
+ 
+}
+.search-btn {
+  display: block;  
+  height: 50px;
+  width: 250px;
+  border: 3px solid  rgb(90, 130, 204);
+  border-radius: 10px;
+  font-size: 2em;
+    
+  }
+  .zipLabel{
+    font-size: 2em;
+    text-align: center;
+   
+  }
+
+  .form-input{
+    height: 50px;
+    width: 250px;
+    border: 3px solid  rgb(90, 130, 204);
+    border-radius: 10px;
+    font-size: 2em;
+  }
